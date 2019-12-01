@@ -19,7 +19,7 @@ security:
             access-token-validity-seconds: 1800
             authorized-grant-types: password,refresh_token
             client-id: futebolinteligente
-            client-secret: '123456'
+            client-secret: 123456
             resource-ids: resources
             scope: read,write
 
@@ -36,5 +36,5 @@ spring:
         database-platform: org.hibernate.dialect.MySQLDialect
         generate-ddl: true
         hibernate:
-            ddl-auto: validate
+            ddl-auto: update
         show-sql: true
