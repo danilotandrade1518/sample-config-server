@@ -15,8 +15,8 @@ eureka:
     wait-time-in-ms-when-sync-empty: 3000
 
 zuul:
-  ignored-services:*
+  ignored-services: *
   routes:
     gallery-service:
-      path:/gallery/**
-      service-id:gallery-service
+      path: /gallery/**
+      service-id: gallery-service
